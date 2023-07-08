@@ -31,8 +31,9 @@
             <h1 class="banner-title">Mary Hardy</h1>
             <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly
                 he. <br>Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-regular">Contact</button>
+                <button class="btn-primary" onclick="document.getElementById('link').click()">Download CV</button>
+<a id="link" href="psd-file/developer-porttfolio.pdf" download hidden></a>
+                <button class="btn-regular" id="cnt">Contact</button>
          </div>
 
          <div class="banner-img">
@@ -237,7 +238,9 @@ Check out my online resume and project portfolio.
             
                 </div>
 <div class="Download">
-    <button class="btn-primary">Download CV</button>
+   
+    <button class="btn-primary" onclick="document.getElementById('link').click()">Download CV</button>
+<a id="link" href="psd-file/developer-porttfolio.pdf" download hidden></a>
 </div>
                 
             
@@ -267,8 +270,16 @@ Check out my online resume and project portfolio.
 <!-- Fotter right side  -->
 
       <div class="footer-coulmn">
-        <h3 class="about-title">Let’s Message me
-        </h3>
+        <h3 class="about-title">Let’s Message me</h3>
+    
+        <form id="cnt" class="form-contact">
+            <input type="text" name="first name" placeholder="your name">
+            
+            <input type="email" name="email" placeholder="Your email">
+             <textarea rows="6" cols="25" placeholder="Your Message"></textarea>
+              <input class="btn-primary" type="submit" value="submit">
+        </form>
+
       </div>
 
     </footer>
