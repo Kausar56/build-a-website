@@ -143,7 +143,10 @@ nav a{
 
 /* Main section style  */
 
-
+main{
+    width: 1150px;
+    margin: 0 auto;
+}
 
 /* About section style  */
 
@@ -167,3 +170,42 @@ nav a{
    font-weight: 400;
    text-align: center;
 }
+
+.about-infro-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 0;
+ } 
+ 
+ .info-des{
+    
+    margin-top: 10px;
+    font-weight: 700;
+
+    }
+
+
+
+    /* what id do section  */
+
+
+    .what-i-do{
+        padding: 30px 150px;
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .skills-container{
+        display: flex;
+    }
