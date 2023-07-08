@@ -327,3 +327,8 @@ main section{
         background-color: #fff;
         border: none;
     }
+
+
+    .footer-icon{
+        margin-right: 20px;
+    }
